@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamroh</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Hamroh</div>
+            <ul class="nav-links">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Kurslar</a></li>
+                <li><a href="#services">Guruhlar</a></li>
+                <li><a
+href="#services">Yordam olish</a></li>
+                <li><a href="#contact">Xayriya qilish</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#login" class="btn">Kirish</a>
+                <a href="#register" class="btn">Ro'yxatdan o'tish</a>
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hamrohga Xush Kelibsiz!</h1>
+                <p>Hamroh - bu nogironlar uchun platforma, bu yerda ular bir-birlari bilan gaplashishlari, hissiyotlarini bo'lishishlari mumkin.</p>
+                <a href="#about" class="hero-btn">Ko'proq bilish</a>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <h2>Biz haqimizda</h2>
+            <p>Hamroh bu sizga kerakli xizmatlarni taqdim etuvchi yetakchi platformadir. Bu yerda nogironlar bir-birlari bilan muloqot qilishlari va o'z his-tuyg'ularini bo'lishishlari mumkin.</p>
+            <img src="about-image.jpg" alt="About Image">
+        </section>
+        <section id="services" class="services-section">
+            <h2>Xizmatlar</h2>
+            <div class="services-container">
+                <div class="service">
+                    <h3>Kurslar</h3>
+                    <p>Foydalanuvchilar o'zlariga ma'qul bo'lgan kurlarni tanlab, o'rganishlari mumkin.</p>
+                </div>
+                <div class="service">
+                    <h3>Guruhlar</h3>
+                    <p>Foydalanuvchilar qiziqishlariga qarab guruhlarga qo'shilishlari mumkin.</p>
+                </div>
+                <div class="service">
+                    <h3>Shaxsiy xabarlar</h3>
+                    <p>Foydalanuvchilar bir-birlari bilan shaxsiy xabarlar orqali muloqot qilishlari mumkin.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <h2>Bog'lanish</h2>
+            <form id="contact-form">
+                <label for="name">Ism:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Xabar:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Yuborish</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hamroh. Barcha huquqlar himoyalangan.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
